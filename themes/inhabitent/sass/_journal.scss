@@ -1,0 +1,232 @@
+
+.inhabitent-journal {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+ 
+}
+
+.inhabitent-journal .journal-content-area {
+    width: 70%;
+    border-right: 1px solid #e1e1e1;
+    padding-right: 5%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    .cat-links {
+      margin-right: 1.5rem;
+    }
+
+}
+
+
+.inhabitent-journal .journal-content-area .cat-links, .tags-links {
+      font-family: $font-family-heading;
+      text-transform: uppercase;
+
+      a {
+        text-decoration: none;
+
+        &:link, &:visited {
+          color: $font-brand-colour-green;
+        }
+
+        &:hover {
+          color: $font-brand-colour-purple;
+        }
+      }
+}
+
+.inhabitent-journal .journal-content-area .social-buttons {
+      margin-top: 1.75rem;
+} 
+
+.inhabitent-journal .journal-content-area .entry-content {
+      a {
+        font-family: $font-family-heading;
+        font-weight: normal;
+        font-style: normal;
+
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+
+        line-height: 1;
+        padding: 0.75rem 1.25rem;
+        border: 1px solid $font-base-colour-black;
+
+        display: inline-block;
+
+        &:link, &:visited {
+          color: $font-base-colour-black;
+        }
+
+        &:hover {
+          background-color: $background-colour-brand-colour-green;
+          color: $font-base-colour-white;
+          border: 1px solid $background-colour-brand-colour-green;
+        }
+      }
+} 
+
+.inhabitent-journal .journal-content-area article {
+      margin-bottom: 4.5rem;
+}
+
+.comments-area {
+  .comments-title {
+    margin: 0 0 1rem 0;
+    font-size: 2.1rem;
+  }
+
+  .comment-list {
+    margin: 0;
+    padding: 1rem 0 0 0;
+
+    li > article {
+      margin-bottom: 1rem;
+    }
+
+    .children li {
+      border-top: 1px solid #e1e1e1;
+      padding: 1rem 0;
+
+      article {
+        margin-bottom: 0;
+      }
+    }
+
+    .children li:last-child {
+      border-bottom: 1px solid #e1e1e1;
+    }
+
+    .comment-body {
+      display: flex;
+      flex-flow: row nowrap;
+
+      a {
+        color: $font-brand-colour-green;
+        text-decoration: none;
+      }
+
+      .avatar {
+        border-radius: 50%;
+      }
+
+      .comment-content {
+        padding-left: 1rem;
+
+        .comment-metadata {
+          color: $font-brand-colour-grey-dark;
+        }
+
+        .fn {
+          font-weight: bold;
+          font-style: normal;
+        }
+
+        p {
+          margin: 1rem 0;
+        }
+
+        .reply {
+          a {
+            &:link, &:visited  {
+              color: $font-brand-colour-green;
+            }
+
+            &:hover {
+              color: $font-brand-colour-purple;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.comment-reply-title {
+  font-size: 1.8rem;
+  line-height: 1;
+  text-transform: uppercase;
+
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.logged-in-as {
+  margin: 0;
+
+  a {
+    text-decoration: none;
+
+    &:link, &:visited  {
+      color: $font-brand-colour-green;
+    }
+
+    &:hover {
+      color: $font-brand-colour-purple;
+    }
+  }
+}
+
+
+.comment-form {
+  display: flex;
+  flex-flow: row wrap;
+
+  label {
+    border-radius: 0;
+
+    text-transform: uppercase;
+    font-family: $font-family-heading;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  input[type='text'], input[type='email'], input[type='url'] {
+    border-radius: 0;
+
+    font-family: $font-family-base;
+    background: $background-colour-form-input;
+  }
+
+  textarea {
+    border-radius: 0;
+
+    font-family: $font-family-base;
+    background: $background-colour-form-input;
+  }
+
+  .comment-form-comment {
+    width: 100%;
+  }
+
+  .comment-form-author, .comment-form-email {
+    flex: 1 0 50%;
+
+    label {
+      display: block;
+    }
+
+    input {
+      width: 98%;
+    }
+  }
+
+  .comment-form-url {
+    flex: 1 0 100%;
+
+    input {
+      width: 100%;
+    }
+  }
+
+  .required {
+    color: $font-brand-colour-orange;
+  }
+
+  .form-submit {
+    margin: 0;
+  }
+}
