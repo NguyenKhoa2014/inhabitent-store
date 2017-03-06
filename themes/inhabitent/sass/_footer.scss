@@ -1,7 +1,56 @@
+// site-footer {
+//       background: url('../../images/dark-wood.png') repeat;
+//       color: $background-colour-base; 
+//   }
 
- .site-footer {
-      background: url('../../images/dark-wood.png') repeat;
-    color: $background-colour-base; 
+//  .footer-columns .container {
+//    display: flex;
+//  } 
+h3 {
+  color: $color-footer-h3;
+}
+.site-footer {
+    background: url(../../images/dark-wood@2x.png);
+    background-size: 512px 512px;
+}
+.footer-columns{
+  display:flex;
+}
+
+.contact-info, .business-hours {
+  width: 25%;
+}
+
+.contact-info {
+  a{
+    text-decoration:none;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:link, &:visited {
+      color: $font-colour-white;
+    }
+    i {
+      padding-right: 20px;
+      width: 20px;
+    }
   }
+}
 
+.business-hours {
+  p  {
+    color:white;
+  }
+  span {
+    font-weight: bold;
+     
+  }
+}
+div.citation p {
+  text-align: center;
+  color: $font-colour-white;
+}
 
+.footer-logo a img {
+  padding-top: 50px;
+}

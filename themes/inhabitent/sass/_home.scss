@@ -78,6 +78,37 @@
     margin-right: 0;
   }
 }
+.product-feed-container {
+  display: flex;
+  justify-content: space-between;
+}
+.product-feed-item {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #E1E1E1;
+  
+  width: 23%;
+  height: 300px;
+  p  {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+
+  }
+  a {
+    text-decoration: none;
+    background-color:$button-color;
+    padding: 10px;
+    color:white;
+  }
+  img {
+    width: 100px;
+  }
+  
+}
 
 
 

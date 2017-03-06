@@ -867,9 +867,42 @@ h1, h2, h3, h4, h5, h6 {
     .header-items .main-navigation fieldset input:focus {
       outline: none; }
 
+h3 {
+  color: #d99052; }
+
 .site-footer {
-  background: url("../../images/dark-wood.png") repeat;
-  color: #ffffff; }
+  background: url(../../images/dark-wood@2x.png);
+  background-size: 512px 512px; }
+
+.footer-columns {
+  display: -ms-flexbox;
+  display: flex; }
+
+.contact-info, .business-hours {
+  width: 25%; }
+
+.contact-info a {
+  text-decoration: none; }
+  .contact-info a:hover {
+    text-decoration: underline; }
+  .contact-info a:link, .contact-info a:visited {
+    color: white; }
+  .contact-info a i {
+    padding-right: 20px;
+    width: 20px; }
+
+.business-hours p {
+  color: white; }
+
+.business-hours span {
+  font-weight: bold; }
+
+div.citation p {
+  text-align: center;
+  color: white; }
+
+.footer-logo a img {
+  padding-top: 50px; }
 
 /*** front page ***/
 .home-hero {
@@ -934,6 +967,36 @@ h1, h2, h3, h4, h5, h6 {
 
 .home-journal .journal-feed-item:last-child {
   margin-right: 0; }
+
+.product-feed-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.product-feed-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  border: 1px solid #E1E1E1;
+  width: 23%;
+  height: 300px; }
+  .product-feed-item p {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px; }
+  .product-feed-item a {
+    text-decoration: none;
+    background-color: #248a83;
+    padding: 10px;
+    color: white; }
+  .product-feed-item img {
+    width: 100px; }
 
 /*** shop page ***/
 .product-content-area .page-header {
