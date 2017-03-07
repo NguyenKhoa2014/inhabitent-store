@@ -136,10 +136,11 @@ header.entry-header {
     font-size: 1.5rem;
     // height: 150px;
     box-sizing: border-box;
+    width: 75%;
   }
   div.entry-meta{
     position: absolute;
-    bottom:20px;
+    bottom:9px;
     right: 87px;
     color:white;
     background: $button-color;

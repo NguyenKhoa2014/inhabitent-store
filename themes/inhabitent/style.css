@@ -1023,10 +1023,11 @@ header.entry-header {
     text-decoration: none;
     background: #248a83;
     font-size: 1.5rem;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    width: 75%; }
   header.entry-header div.entry-meta {
     position: absolute;
-    bottom: 20px;
+    bottom: 9px;
     right: 87px;
     color: white;
     background: #248a83; }
@@ -1393,7 +1394,6 @@ header.entry-header {
       .inhabitent-archive .archive-content-area .entry-header .entry-meta a:hover {
         color: #f0e4d1; }
 
-/*** about styles ***/
 .about-hero {
   display: -ms-flexbox;
   display: flex;
@@ -1412,7 +1412,8 @@ header.entry-header {
   max-width: 800px;
   margin: 3rem auto; }
   .about-content h2 {
-    font-size: 2.1rem; }
+    font-size: 2.1rem;
+    text-align: center; }
 
 /*** find us ***/
 .find-us {
@@ -1515,7 +1516,6 @@ header.entry-header {
       justify-content: space-between;
   padding-top: 3rem; }
 
-/*** about styles ***/
 .about-hero {
   display: -ms-flexbox;
   display: flex;
@@ -1534,4 +1534,5 @@ header.entry-header {
   max-width: 800px;
   margin: 3rem auto; }
   .about-content h2 {
-    font-size: 2.1rem; }
+    font-size: 2.1rem;
+    text-align: center; }
