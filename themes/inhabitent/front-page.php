@@ -29,7 +29,7 @@ get_header(); ?>
                         <div class="product-feed-item">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/product-type-icons/<?php echo $term->slug; ?>.svg" alt="Product icon image of <?php echo $term->slug; ?>">
                             <p><?php echo $term->description; ?></p>
-                            <p><a href="<?php echo $url ?>"><?php echo $term->name; ?> Stuff</a></p>
+                            <a href="<?php echo $url ?>"><?php echo $term->name; ?> Stuff</a>
                         </div>
                     <?php endforeach; ?>
             </section>

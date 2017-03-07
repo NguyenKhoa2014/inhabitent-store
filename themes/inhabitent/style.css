@@ -254,14 +254,14 @@ th {
 
 /*novecentro sans wide*/
 @font-face {
-  font-family: 'novecento_sans_wide';
+  font-family: 'novecento';
   src: url("../../fonts/Novecentosanswide-Normal-webfont.eot");
   src: url("../../fonts/Novecentosanswide-Normal-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/Novecentosanswide-Normal-webfont.woff2") format("woff2"), url("../../fonts/Novecentosanswide-Normal-webfont.woff") format("woff"), url("../../fonts/Novecentosanswide-Normal-webfont.ttf") format("truetype"), url("../../fonts/Novecentosanswide-Normal-webfont.svg#novecento_sans_widenormal") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'novecento_sans_wide';
+  font-family: 'novecento';
   src: url("../../fonts/Novecentosanswide-DemiBold-webfont.eot");
   src: url("../../fonts/Novecentosanswide-DemiBold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/Novecentosanswide-DemiBold-webfont.woff2") format("woff2"), url("../../fonts/Novecentosanswide-DemiBold-webfont.woff") format("woff"), url("../../fonts/Novecentosanswide-DemiBold-webfont.ttf") format("truetype"), url("../../fonts/Novecentosanswide-DemiBold-webfont.svg#novecento_sans_widedemibold") format("svg");
   font-weight: bold;
@@ -276,7 +276,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: merriweather, serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -341,7 +341,8 @@ html {
 
 body {
   background: #fff;
-  /* Fallback for when there is no custom background color defined. */ }
+  /* Fallback for when there is no custom background color defined. */
+  font-family: merriweather, serif; }
 
 blockquote, q {
   quotes: "" ""; }
@@ -915,6 +916,12 @@ div.citation p {
   background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25) 100%), url("../../images/home-hero.jpg") top center no-repeat;
   background-size: cover, cover; }
 
+.home-shop h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  font-family: novecento, sans-serif; }
+
 .home-journal h2 {
   font-weight: normal;
   font-style: normal;
@@ -979,24 +986,50 @@ div.citation p {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-align: center;
       align-items: center;
   border: 1px solid #E1E1E1;
+  border-top: 5px solid #e1e1e1;
+  padding: 8px;
   width: 23%;
   height: 300px; }
+  .product-feed-item:hover {
+    border: 1px solid #d99052;
+    border-top: 5px solid #d99052; }
   .product-feed-item p {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    text-decoration: none;
-    padding: 20px; }
+    text-decoration: none; }
   .product-feed-item a {
+    font-family: novecento, sans-serif;
     text-decoration: none;
+    text-transform: uppercase;
     background-color: #248a83;
     padding: 10px;
     color: white; }
   .product-feed-item img {
     width: 100px; }
+
+header.entry-header {
+  position: relative; }
+  header.entry-header h2 a {
+    position: absolute;
+    top: 30px;
+    padding: 9px;
+    color: white;
+    text-decoration: none;
+    background: #248a83;
+    font-size: 1.5rem;
+    box-sizing: border-box; }
+  header.entry-header div.entry-meta {
+    position: absolute;
+    bottom: 20px;
+    right: 87px;
+    color: white;
+    background: #248a83; }
 
 /*** shop page ***/
 .product-content-area .page-header {
