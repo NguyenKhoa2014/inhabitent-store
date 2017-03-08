@@ -21,14 +21,14 @@ get_header(); ?>
 				<div class="page-content">
 					<p><?php echo esc_html( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?' ); ?></p>
 
-					<?php get_search_form(); ?>
+					<div class="not-found-search"><?php get_search_form(); ?></div>
 
-					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
+					<div class="not-found-recent-posts"><?php the_widget( 'WP_Widget_Recent_Posts' ); ?></div>
 
 					<?php if ( red_starter_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
 					<div class="widget widget_categories">
 						<h2 class="widget-title"><?php echo esc_html( 'Most Used Categories' ); ?></h2>
-						<ul>
+						<ul class="not-found-widget">
 							<?php
 								wp_list_categories( array(
 									'orderby'    => 'count',

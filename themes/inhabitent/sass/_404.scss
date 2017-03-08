@@ -3,5 +3,36 @@
   display: flex;
   justify-content: space-between;
   padding-top: 3rem;
-
 }
+
+.not-found-search {
+  fieldset {
+    border: 0;
+    padding:0;
+    margin:0;
+    .search-field {
+        &:focus {
+          border: 1px solid lightblue;
+          box-shadow: none;
+        }
+      }
+  }
+
+  i.fa.fa-search {
+    display:none;
+    width:0px;
+  }
+}
+#main > section > div > div.not-found-recent-posts{
+   ul {
+     li {
+       a {
+         text-decoration: none;
+       }
+     }
+   }
+ }
+#main > section > div > div.widget.widget_categories > ul > li> a {
+  text-decoration: none;
+} 
+ 

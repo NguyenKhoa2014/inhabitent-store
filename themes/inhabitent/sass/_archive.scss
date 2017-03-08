@@ -72,6 +72,40 @@
   .inhabitent-archive .archive-content-area article {
       margin-bottom: 4.5rem;
     }
+  h1.entry-title {
+      position: absolute;
+      top:0 ;
+      left:0;
+      color: white;
+      background-color:$background-colour-brand-colour-green;
+      padding: 5px;
+  }
+  archive {
+    article {
+      header {
+        h2 {
+              width: 100%;
+              background-color:none;
+        }
+         
+      }
+    }
+  }
+  header.entry-header h2 a {
+      width: 80%;
+      position: absolute;
+      top: 30px;
+      padding: 9px;
+      color:white;
+  }
+
+  // h2.entry-title {
+  //     position: absolute;
+  //     top:0 ;
+  //     left:0;
+  //     color: white;
+  //     width: 100%; 
+  // }
 .inhabitent-archive .archive-content-area .entry-header {
       position: relative;
       line-height: 0;
@@ -135,4 +169,8 @@
         }
       }
     }
-     
+
+    span.comments-link a {
+      text-decoration: none;
+      color:white;
+    } 
