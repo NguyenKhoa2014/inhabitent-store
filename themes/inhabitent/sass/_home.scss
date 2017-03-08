@@ -147,6 +147,71 @@ header.entry-header {
   }
 }
 
+.adv-container{
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top:100px;
+  height: 540px;
+  color:white;
 
+}
+.left-adv {
+  background-color:yellow;
+  height: 98%;
+  object-fit: cover;
+  width: 48%;
+  background: url('../../images/canoe-girl.jpg') no-repeat center;
+  background-size: cover cover;
+  color:white;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-right:10px;
+  margin-bottom: 10px;
+}
+.right-adv {
+  width:50%;
+  display: flex;
+  flex-direction:column;
+  height:540px; 
+}
+.right-top {
+  
+  width:100%;
+  background-color: green;
+  // object-fit: cover;
+  height: 48%;
+  background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+    url(../../images/night-sky.jpg) no-repeat center;
+  background-size: cover cover;
+  margin-bottom: 2%;
+}
+.right-btm {
+  width: 100%;
+  height: 48%;
+  
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.right-btm-left {
+  background: blue;
+  width: 48%;
+  object-fit:cover;
+  background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+    url(../../images/mountain-hikers.jpg) no-repeat center;
+  background-size: cover cover;
+}
+.right-btm-right{
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  object-fit:cover;
+  background-color: red;
+  background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+    url(../../images/beach-bonfire.jpg) no-repeat center;
+  background-size: cover cover;
+}
 
 

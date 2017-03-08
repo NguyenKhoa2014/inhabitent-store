@@ -61,6 +61,32 @@ get_header(); ?>
                 </div>
         </section>
 
+        <section class="latest-adventures">
+            <div class="adv-container">
+                <div class="left-adv" >
+                    <div class="heading-adv">Getting Back to Nature in Canoe</div>
+                    <div class="link-button">Read More</div>
+                </div>
+                <div class="right-adv">
+                    <div class="right-top">
+                        <div class="heading-adv">A bonfire with friends on the beach
+A Night with Friends at the Beach</div>
+                        <div class="link-button">Read More</div>
+                    </div>
+                    <div class="right-btm">
+                        <div class="right-btm-left">
+                            <div class="heading-adv">Taking in the View at Big Mountain </div>
+                            <div class="link-button">Read More</div>
+                        </div>
+                        <div class="right-btm-right">
+                            <div class="heading-adv">Person star-gazing at the night sky
+Star-Gazing at the Night Sky</div>
+                            <div class="link-button">Read More</div>
+                        </div>
+                    </div>
+                </div>
+            <div>
+        </section>
        
     </div>
 
