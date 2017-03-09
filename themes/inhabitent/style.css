@@ -1058,6 +1058,8 @@ header.entry-header {
 .heading-adv {
   font-size: 1.5rem;
   margin-bottom: 30px; }
+  .heading-adv:hover {
+    color: #F0E4D1; }
 
 .heading-adv.left {
   font-size: 2.5rem;
@@ -1072,6 +1074,8 @@ header.entry-header {
   width: 100px;
   padding: 5px;
   cursor: pointer; }
+  .link-button:hover {
+    background-color: #248a83; }
 
 .right-adv {
   width: 50%;
@@ -1128,6 +1132,9 @@ header.entry-header {
   background-position: 50%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/beach-bonfire.jpg) no-repeat center;
   background-size: cover cover; }
+
+.more-adv {
+  background-color: blue; }
 
 /*** shop page ***/
 .product-content-area .page-header {

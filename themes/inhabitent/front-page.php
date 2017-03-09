@@ -69,8 +69,7 @@ get_header(); ?>
                 </div>
                 <div class="right-adv">
                     <div class="right-top">
-                        <div class="heading-adv top">A bonfire with friends on the beach
-A Night with Friends at the Beach</div>
+                        <div class="heading-adv top">A Night with Friends at the Beach</div>
                         <div class="link-button">Read More</div>
                     </div>
                     <div class="right-btm">
@@ -79,11 +78,13 @@ A Night with Friends at the Beach</div>
                             <div class="link-button">Read More</div>
                         </div>
                         <div class="right-btm-right">
-                            <div class="heading-adv">Person star-gazing at the night sky
-Star-Gazing at the Night Sky</div>
+                            <div class="heading-adv"> Star-Gazing at the Night Sky</div>
                             <div class="link-button">Read More</div>
                         </div>
                     </div>
+                </div>
+                <div class="more-adv">
+                    More Adventures
                 </div>
             <div>
         </section>
