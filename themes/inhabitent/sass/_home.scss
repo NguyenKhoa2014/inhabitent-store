@@ -175,11 +175,19 @@ header.entry-header {
   font-size: 1.5rem;
   margin-bottom: 30px;
 }
+.heading-adv.left {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.heading-adv.top {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
 .link-button {
   border: 1px solid white;
   width: 100px;
   padding:5px;
-
+  cursor: pointer;
 }
 .right-adv {
   width:50%;
@@ -215,6 +223,7 @@ header.entry-header {
   justify-content: space-between;
 }
 .right-btm-left {
+  padding:10px;
   background-position: 50%;
   width: 48%;
   object-fit:cover;
@@ -223,6 +232,7 @@ header.entry-header {
   background-size: cover cover;
 }
 .right-btm-right{
+  padding:10px;
   display: flex;
   flex-direction: column;
   width: 48%;

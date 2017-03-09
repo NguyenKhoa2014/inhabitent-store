@@ -64,12 +64,12 @@ get_header(); ?>
         <section class="latest-adventures">
             <div class="adv-container">
                 <div class="left-adv" >
-                    <div class="heading-adv">Getting Back to Nature in Canoe</div>
+                    <div class="heading-adv left">Getting Back to Nature in Canoe</div>
                     <div class="link-button">Read More</div>
                 </div>
                 <div class="right-adv">
                     <div class="right-top">
-                        <div class="heading-adv">A bonfire with friends on the beach
+                        <div class="heading-adv top">A bonfire with friends on the beach
 A Night with Friends at the Beach</div>
                         <div class="link-button">Read More</div>
                     </div>
